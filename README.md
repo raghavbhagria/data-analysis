@@ -33,7 +33,7 @@ The given data was provided by the Data Society. This dataset displays aircraft 
 
 ## Images
 
-[](https://github.com/ubco-W2022T1-cosc301/project-group46/blob/main/images/07plane_7-superJumbo.jpeg)
+![](https://github.com/ubco-W2022T1-cosc301/project-group46/blob/main/images/07plane_7-superJumbo.jpeg)
 
 
 
