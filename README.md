@@ -1,12 +1,6 @@
-# Group 46 
+# Group 46 : AIRPLANE CRASHES AND FATALITIES
 
-**Please remember to update this section**
 
-- Your title can change over time.
-
-## Milestones
-
-Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## Describe your topic/interest in about 150-200 words
 
@@ -27,9 +21,11 @@ The given data was provided by the Data Society. This dataset displays aircraft 
 
 **Please remember to update this section**
 
-- Person 1: one sentence about you!
+- Sumer: I like to read books and travel during the summers.
+
 - Raghav Bhagria: I am enthusiastic to learn more about **data analysis** 
-- Person 3: one sentence about you!
+- Jusnoor : I am a passionate person , really curious to study about different platforms used for carrying out a thorough data analysis.
+
 
 ## Images
 
@@ -39,9 +35,9 @@ The given data was provided by the Data Society. This dataset displays aircraft 
 
 ## References
 
-**Please remember to update this section**
 
-{Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
+https://www.kaggle.com/datasets/thedevastator/airplane-crashes-and-fatalities
+https://www.kaggle.com/vedumrajkar
 
 
 
