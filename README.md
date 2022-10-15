@@ -36,8 +36,13 @@ The given data was provided by the Data Society. This dataset displays aircraft 
 ## References
 
 
-https://www.kaggle.com/datasets/thedevastator/airplane-crashes-and-fatalities
-https://www.kaggle.com/vedumrajkar
+- https://www.kaggle.com/datasets/thedevastator/airplane-crashes-and-fatalities
+
+The top two contributers to the data set: 
+- https://www.kaggle.com/vedumrajkar
+- https://www.kaggle.com/mad20042002
+
+
 
 
 
