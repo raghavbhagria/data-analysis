@@ -1,17 +1,26 @@
-
-
 import pandas as pd
+import pandas as pd
+import seaborn as sns
+import numpy as np
+import os
+import matplotlib.pyplot as plt
 
-def file_Loading(path):
-   
-    # Method Chain 1 (Load data, drop na rows, drop unneeded columns)
-    
-    # Preparing list needed
-    drop_columns = ['registeration','Ground','Location','time']
-    def clean_file:
-        df1 = (pd.read_csv("/Users/raghavbhagria/Desktop/COSC301/project-group46/data/processed/processed.csv").dropna().drop(drop_columns, axis=1).reset_index(drop=True))
+# Method chaining begins
+
+def cleaned_data(path):
+    df1 = (
+    pd.read_csv(path,parse_dates=True)
+    .dropna(how='any')
+    .drop_duplicates())
         
-    def rename_col:
-        df2=df1.rename(columns={'Fatilities':'Deaths'}, inplace=True)
-    
+    df2 = df.copy().drop(['time','Ground','Summary','Location',"Unnamed: 11","Unnamed: 12"],axis=1)
     return df2
+    
+
+def loadData(path):
+    df=pd.read_csv(path,parse_dates=True)
+    def describe_dataset():
+        return data.describe
+
+    def loadAlive():
+        return [df['Aboard']-df['Fatilities']

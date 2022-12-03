@@ -2,7 +2,7 @@
 # &emsp;&emsp;&emsp;&emsp;&emsp;<U> <b>GROUP 46</U>
 
 ## &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<B>INTRODUCTION
-### Our group decided that our project would be based on data analysis on air plane crashed that happened in the span of 5 years from <b>2004-2009</b>. When we came across this data, a series of questions started coming in our minds. Since, air travel in one of the most common and faster means of transport, we were intrigued on finding various trends and answers to our curiosity.<br><br>
+### Our group decided to analyze the data for airplane crashes over a span of 5 years from **2004-2009**. Upon exploring the dataset a series of questions popped up in our minds.Since air travel was gaining popularity over that period of time each one of us had a series of question with different approaches we did the following data analysis.<br><br>
 ## &emsp;&emsp;&emsp;&emsp;<B>EXPLORATORY DATA ANALYSIS
 
 ## <B>QUESTIONS ANSWERED DURING ANALYSIS<br><br>
@@ -20,5 +20,37 @@
 [complete analysis](/Users/sumermann/Desktop/301/project-group46/notebooks/analysis1.ipynb)<br>
 ### Some Insights that I was able to find out during this research was how data for aboard and fatalities went in hand-to-hand throughout the dataset with some outliers from the trend. Trimming down the dataset proved to be a good step as it helped me understand and focus me analyze on my reaearch analysis. Death of a single person is not acceptable.There can always be improvement is the avaition sector so that minimum lives are lost and the air transport can be made more safer in future times. I can say that lives lost cannot be brought back but as the technology is advancing day-by-day, air travel can be definitely made more safer in coming years.<br><br>
 ## <u>Raghav Bhagria</u><br>
+I approached the data set in a way to answer the my reasearch questions which were:
+1. What was it when a plane crashed and maximum people were on aboard?
+1. Is there a great trend in number of survivor and fatalities?
+1. highest number of crashes by operator and Type of aircrafts?
+1. what type crashed the most?
+
+
+To answer these question I did my exploratory data analysis under which I plotted the following the two graphs : 
+![]()
+
+from the first hist plot I was able  to find out that the model that crashed the most was which was Cesna 208B Grand Caravan with the number of crashes being over 8 times in a span of 5 years.(answer to qusetion 4)
+
+The scatter plot makes it very clear that in most of these incidents (except a few) all the people that were on board died. I came to this conclusion by looking at the straight diagonal line plotted on the graph.(answer to question 2) 
+
+My complete data analysis file is here linked below:
+![]()
+
+this has all these visualizations:
+
+![]()
+this scatter plot shows that maximum people aboard a plane that crashed was in year 2005.(answer to question 1)</br>
+
+![]()
+
+
+this bar plot shows maximum Fatilities were incurred to air france over these 5 years.(answer to question 3)
+
+![]()
+
+this bar plot states the airplane type that crashed and caused the maximum fatalities which from 2004-2009 was : Airbus-A320-233(answer to question 3)
 
 ## &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<B>CONCLUSION
+
+Through this project we got to learn a lot about how data analysis is actually done and with how we can experimentally derive results to our questions through data analysis. This particular dataset was collected from kaggle and we had to put in a lot of hardwork in cleaning it up and then going ahead using python,pandas,Seaborn and markdown to complete our data analysis. Overall we were able to find all the answers to our research questions and this project was a huge learning for us on how data analysis is done. 
