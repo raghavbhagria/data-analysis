@@ -5,27 +5,26 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
-file='/Users/sumermann/Desktop/301/project-group46/data/processed/COSC301_dataset - Sheet1.csv'
-stats=pd.read_csv(file)
-stats
+# Method chaining begins
 
-stats=stats.dropna(how='any')
-processed_stats=stats.drop_duplicates()
-processed_stats
+def processed_stats(path):
+    data1 = (
+    pd.read_csv(path,parse_dates=True)
+    .dropna(how='any')
+    .drop_duplicates())
+        
+    data2 = (
+     data1.copy().drop(['type','registeration','Ground','time'], axis=1)
+    .rename({"date": "Date of Crash", "Location":"Location for crash"})
+    .reset_index(drop = True)
+    )
+    
+    return data2
 
-stats_final=processed_stats.copy().drop(['registeration','Ground','Location','time','route'],axis=1)
-print(f'This is my final dataset for this task:')
-stats_final
-
-
-def planeData():
+def planeData(path):
+    data=pd.read_csv(path,parse_dates=True)
     def loadset():
-        print(stats_final)
-        print(stats_final.describe())
+        return data.describe
 
     def loadDeaths():
-        print('\n')
-        print(stats_final['Fatilities'])
-
-    loadset()
-    loadDeaths()
+        return data['Fatilities']
