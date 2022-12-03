@@ -28,26 +28,29 @@ I approached the data set in a way to answer the my reasearch questions which we
 
 
 To answer these question I did my exploratory data analysis under which I plotted the following the two graphs : 
-![]()
 
-from the first hist plot I was able  to find out that the model that crashed the most was which was Cesna 208B Grand Caravan with the number of crashes being over 8 times in a span of 5 years.(answer to qusetion 4)
+![](https://github.com/ubco-W2022T1-cosc301/project-group46/blob/main/images/Final%20report%20images%20Raghav/Screen%20Shot%202022-12-03%20at%2012.37.54%20PM.png)
 
-The scatter plot makes it very clear that in most of these incidents (except a few) all the people that were on board died. I came to this conclusion by looking at the straight diagonal line plotted on the graph.(answer to question 2) 
+from the first hist plot I was able  to find out that the model that crashed the most was which was Cesna 208B Grand Caravan with the number of crashes being over 8 times in a span of 5 years.(answer to qusetion 4)</br>
+![](https://github.com/ubco-W2022T1-cosc301/project-group46/blob/main/images/Final%20report%20images%20Raghav/Screen%20Shot%202022-12-03%20at%2012.38.12%20PM.png)
+</br>
+The scatter plot makes it very clear that in most of these incidents (except a few) all the people that were on board died. I came to this conclusion by looking at the straight diagonal line plotted on the graph.(answer to question 2) </br>
 
 My complete data analysis file is here linked below:
-![]()
+![independent notebook](https://github.com/ubco-W2022T1-cosc301/project-group46/blob/main/notebooks/analysis2.ipynb)
+![group analysis](https://github.com/ubco-W2022T1-cosc301/project-group46/blob/main/notebooks/group_analysis.ipynb)
 
 this has all these visualizations:
 
-![]()
+![](https://github.com/ubco-W2022T1-cosc301/project-group46/blob/main/images/Final%20report%20images%20Raghav/Screen%20Shot%202022-12-03%20at%2012.38.40%20PM.png)
 this scatter plot shows that maximum people aboard a plane that crashed was in year 2005.(answer to question 1)</br>
 
-![]()
+![](https://github.com/ubco-W2022T1-cosc301/project-group46/blob/main/images/Final%20report%20images%20Raghav/Screen%20Shot%202022-12-03%20at%2012.38.51%20PM.png)
 
 
 this bar plot shows maximum Fatilities were incurred to air france over these 5 years.(answer to question 3)
 
-![]()
+![](https://github.com/ubco-W2022T1-cosc301/project-group46/blob/main/images/Final%20report%20images%20Raghav/Screen%20Shot%202022-12-03%20at%2012.39.01%20PM.png)
 
 this bar plot states the airplane type that crashed and caused the maximum fatalities which from 2004-2009 was : Airbus-A320-233(answer to question 3)
 
