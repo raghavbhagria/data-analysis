@@ -1,44 +1,32 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "3c229d5b-e03f-4d95-8f99-424e0734fd70",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# Raghav's method chaining function"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "626ad3cd-0f0b-488e-b4f6-a0ff38c9814e",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.9.13"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
+import pandas as pd
+import pandas as pd
+import seaborn as sns
+import numpy as np
+import os
+import matplotlib.pyplot as plt
+
+# Method chaining begins
+
+def cleaned_data(path):
+    df1 = (
+    pd.read_csv(path,parse_dates=True)
+    .dropna(how='any')
+    .drop_duplicates())
+        
+    df2 = df.copy().drop(['time','Ground','Summary','Location',"Unnamed: 11","Unnamed: 12"],axis=1)
+    return df2
     
-}
+
+def loadData(path):
+    df=pd.read_csv(path,parse_dates=True)
+    def describe_dataset():
+        return data.describe
+
+    def loadAlive():
+        return [df['Aboard']-df['Fatilities']
+
+            
+def data_clean(path):
+    data_ = pd.read_csv(path,parse_dates=True).dropna(how='any').drop_duplicates()
+ 
+    return data_
